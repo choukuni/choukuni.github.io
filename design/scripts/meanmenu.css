@@ -165,8 +165,8 @@ a.meanmenu-reveal {
 
 .mean-container .mean-nav ul li.spsbtn a img {
 	text-align: center;
-	max-width: 24px;
-	max-height: 24px;
+	max-width: 20px;
+	max-height: 20px;
 }
 
 /* Fix for box sizing on Foundation Framework etc. */
