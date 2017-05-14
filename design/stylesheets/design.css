@@ -34,7 +34,7 @@ header h1 img {
 @media screen and (min-width: 1024px) {
 	.sbtn {
 		position: absolute;
-		top: 60.5px;
+		top: 60px;
 		right: 30px;
 	}
 
