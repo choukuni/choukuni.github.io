@@ -22,7 +22,7 @@ header h1 {
 }
 
 header h1 img {
-	max-width: 540px;
+	max-width: 500px;
 }
 
 @media screen and (max-width: 640px) {
