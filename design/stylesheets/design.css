@@ -258,13 +258,13 @@ footer small {
 }
 
 @media screen and (min-width: 1024px) {
-	.copyright {
+	.scbtn {
 		padding-bottom: 20px;
 	}
 }
 
 @media screen and (max-width: 640px) {
-	.copyright {
+	.scbtn {
 		padding-bottom: 20px;
 	}
 }
