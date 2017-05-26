@@ -9,6 +9,8 @@
 		<link rel="stylesheet" href="design/stylesheets/html5reset.css" type="text/css">
 		<link rel="stylesheet" href="design/stylesheets/design.css" type="text/css">
 		<link rel="stylesheet" href="design/scripts/meanmenu.css">
+		<link rel="stylesheet" href="design/scripts/remodal.css">
+		<link rel="stylesheet" href="design/scripts/remodal-default-theme.css">
 		<meta property="og:title" content="超国高祭">
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="https://choukunikousai.com/">
@@ -70,13 +72,30 @@
 					<span class="rs">東京都立国立高等学校<br>
 					67期（2015年卒）<br>
 					大日方 伸</span></p>
-				<h2 id="about"><img src="design/images/h2b.png" height="44" width="240" alt="開催概要"></h2>
+				<h2 id="about"><img src="design/images/h2b.png" height="44" width="240" alt="超国高祭とは"></h2>
 				<p class="text">
-					日時：2018年3月24・25日（土・日）<br>
-					場所：どこかで
+				　廃校を借りて行われる、国立高校の卒業生による演劇公演。<br>
+				　全部がはじめてのまま、キャスト・内装・外装・脚本・演出・音響・照明・衣装・広報、、、、などなど、がむしゃらにやっていた僕らが、今度は国高祭のプロとして、あの時の僕らを超える国高祭をつくりあげます。
 				</p>
 				<h2 id="members"><img src="design/images/h2c.png" height="44" width="160" alt="メンバー"></h2>
+					<div class="ctcontent">
+					<h3>連絡先</h3>
+						<p class="textat">
+						67期：大日方 伸・藤原 奏人・荻田 有輝・おけ ちかこ<br>
+						68期：川村 陸<br>
+						69期：松本 海月・松原 リナ
+						</p>
+					</div>
 				<h2 id="recruit"><img src="design/images/h2d.png" height="44" width="240" alt="実行委員募集"></h2>
+				<p class="text">
+				　超国高祭を一から形づくっていく実行委員を募集します。<br>
+				　演劇を実際に演じたり、照明や音響をしたりするのではなく、国実や文実のように超国高祭という「場所」を作っていく仕事です。<br>
+				　ご参加は、国高の卒業生の方に限らせていただきます。ご応募お待ちしています。5/31に初回ミーティングを行いますので、参加したいとお考えの方はお早めにお申し込みください。<br>
+				　興味のある方は、以下のフォームよりお申し込みください。<br>
+				&nbsp;<br>
+				　最終締め切り：6月9日（金）23時59分<br>
+				　<a href="https://goo.gl/forms/ZOAVXVwVMZiEc4wJ3">超国高祭実行委員参加申し込みフォーム</a>
+				</p>
 			</div>
 			<h2 id="contact"><img src="design/images/h2e.png" height="44" width="240" alt="お問い合わせ"></h2>
 				<div class="ctcontent">
@@ -104,6 +123,8 @@
 		</footer>
 		<script type="text/javascript" src="design/scripts/jquery-1.11.1.min.js"></script>
 		<script src="design/scripts/jquery.meanmenu.js"></script>
+		<script src="design/scripts/masonry.pkgd.min.js"></script>
+		<script src="design/scripts/remodal.min.js"></script>
 		<script>
 		$(document).ready(function() {
 			$('nav').meanmenu({
@@ -114,6 +135,13 @@
 			    meanScreenWidth: "640", // 表示させるウィンドウサイズ(ブレイクポイント)
 			});
 		});
+		</script>
+		<script>
+			$('.cards').masonry({
+				// options
+				itemSelector: '.card',
+				columnWidth: 320
+			});
 		</script>
 		<script>
 			$(function(){

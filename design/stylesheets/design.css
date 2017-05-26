@@ -220,6 +220,10 @@ h3 {
 	}
 }
 
+#content {
+	max-width: 100%;
+}
+
 p.text {
 	padding: 20px;
 	line-height: 1.5em;
@@ -276,8 +280,67 @@ p a {
 
 p a:hover {
 	color: #00a29a;
-	border-bottom: solid 2px #00a29a;
+	border-bottom: solid 2px 00a29a;
 }
+
+.cards {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.card {
+	width: 320px;
+  	background: #fff;
+  	border-radius: 5px;
+  	box-shadow: 0 2px 5px #ccc;
+  	margin: 0 auto;
+  	margin-top: 10px;
+  	margin-bottom: 10px;
+}
+
+/*.members ul {
+	max-width: 800px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.listupper {
+	display: flex;
+}
+
+.listupper li {
+	margin-left: 53.3px;
+}
+
+.listupper li:first-child {
+	margin-left: 0;
+}
+
+.listmiddle {
+	display: flex;
+}
+
+.listmiddle li {
+	margin-left: 53.3px;
+}
+
+.listmiddle li:first-child {
+	margin-left: 0;
+}
+
+.listlower {
+	display: flex;
+	margin: 0 auto;
+}
+
+.listlower li {
+	margin-left: 50px;
+}
+
+.listlower li:first-child {
+	margin-left: 130px;
+}
+*/
 
 .ctcontent {
 	margin: 0 auto;
