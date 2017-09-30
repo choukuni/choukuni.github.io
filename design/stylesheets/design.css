@@ -391,3 +391,9 @@ p a:hover {
 	position: relative;
 	margin-left: 10px;
 }
+
+.notice {
+	border: solid 2px #333;
+	max-width: 1000px;
+	margin: 0 auto;
+}
